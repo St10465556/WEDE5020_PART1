@@ -1,0 +1,182 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; 
+    color: #333; 
+    line-height: 1.6;
+    margin: 0; 
+    padding: 20px;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #ffffff; /* Crisp white background */
+    padding: 20px 40px; /* Top/bottom and left/right padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Rounded corners  */
+}
+/* Header Specifics */
+header {
+    margin-bottom: 20px;
+    /*Flexbox for alignment */
+    display: flex;
+    justify-content: center; /* Center the nav element */
+    align-items: center; /* Vertically align items */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+}
+
+header-left {
+    display: flex;
+    align-items: center; 
+    gap: 15px; 
+}
+
+business-name {
+    font-size: 1.5em; /* Adjust font size */
+    font-weight: bold;
+    color: #005a9c;
+}
+
+/* Header Specifics */
+header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 5px 15px; /* Adjust spacing for better flow */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #005a9c;
+    font-weight: 600; 
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+   background-color: #f0f4f8; /* Light background on hover */
+    color: #005a9c;
+}
+
+/* Logo Image */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Make the logo round */
+    border: 3px solid #005a9c; /*Border to the logo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Section */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    text-align: center;
+}
+content-container {
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+
+/* Headings and Slogan */
+blue-heading {
+    color: #005a9c;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/* Headings and Slogan */
+h1 {
+    color: #005a9c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: italic; /*italic style from the HTML */
+    border-bottom: 3px solid #ff9900; /* Orange line under the h1 */
+    padding-bottom: 10px; /*Space between the text and the line */
+}
+
+h5 {
+    color: #666; /* Lighter color for the hashtag */
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #005a9c;
+    border-bottom: 2px solid #ff9900; /* Accent line under headings */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+h4 {
+    color: black;
+    font-size: 1em;
+}
+
+/* Paragraph and List styles */
+p, ul {
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Contact Details */
+contact-details p {
+    margin: 5px 0;
+}
+
+contact-details a {
+    color: #005a9c;
+    text-decoration: none;
+}
+
+contact-details a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+    padding: 15px;
+}

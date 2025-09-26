@@ -1,0 +1,192 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header Specifics */
+header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #005a9c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f4f8;
+    color: #005a9c;
+}
+
+/* Header Image */
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #005a9c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Section */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #005a9c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: italic;
+    border-bottom: 3px solid #ff9900; /* Orange line under the h1 */
+    padding-bottom: 10px; /* Add some space between the text and the line */
+}
+
+
+h2 {
+    color: #005a9c;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h5 {
+    color: #666;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Paragraph and List styles */
+p, ul {
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Mission and Vision Section */
+.Mission-Vision-statements {
+    padding: 20px;
+}
+
+.Mission-Vision-statements h2 {
+    color: #005a9c;
+    font-size: 1.8em;
+}
+
+.Mission-Vision-statements p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact Details */
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-details a {
+    color: #005a9c;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+    padding: 15px;
+    text-align: center;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+}
+
+/* Fun Fact Section */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}

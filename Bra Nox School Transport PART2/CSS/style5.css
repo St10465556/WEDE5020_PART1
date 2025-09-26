@@ -1,0 +1,228 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f4f8; /* A very light, clean blue-grey */
+    color: #333; /* Dark charcoal text */
+    line-height: 1.6;
+    margin: 0; /* Reset default body margin */
+    padding: 20px;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #ffffff; /* Crisp white background */
+    padding: 20px 40px; /* Top/bottom and left/right padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 10px; /* Rounded corners for a modern look */
+}
+
+/* Header Specifics */
+header {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Header Specifics */
+header {
+    margin-bottom: 20px;
+    /* Use Flexbox for alignment */
+    display: flex;
+    justify-content: center; /* Center the nav element */
+    align-items: center; /* Vertically align items */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space out the left and right sides */
+    align-items: center;
+    width: 100%; /* Make the nav element take up the full width of the header */
+}
+
+header-left {
+    display: flex;
+    align-items: center; /* Align the logo and text vertically */
+    gap: 15px; /* Add space between the logo and the text */
+}
+
+business-name {
+    font-size: 1.5em; /* Adjust font size */
+    font-weight: bold;
+    color: #005a9c;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #005a9c;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f4f8; /* Light background on hover */
+    color: #005a9c;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    border: 3px solid #005a9c; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto; 
+    padding: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #005a9c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 5px;
+    font-style: italic; 
+}
+
+h3 {
+    color: #005a9c;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+	border-bottom: 3px solid #ff9900; 
+    padding-bottom: 10px; 
+}
+
+h2 {
+    color: #005a9c;
+    padding-bottom: 5px;
+    margin-top: 30px;
+	
+}
+
+p, ul {
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+contact-details p {
+    margin: 5px 0;
+}
+contact-details a {
+    color: #005a9c;
+    text-decoration: none;
+}
+
+contact-details a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+    padding: 15px;
+}
+
+/* Style the DETAILS element */
+details {
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+details summary {
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700; 
+    color: #005a9c;
+    padding: 5px 0;
+    list-style: none; 
+    position: relative;
+}
+/* When in CLOSED STATE */
+details summary::after {
+    content: '\00BB'; /* » Double right arrow */
+    position: absolute;
+    right: 0;
+    transition: transform 0.2s ease-in-out;
+}
+/* OPEN STATE */
+details[open] summary::after {
+    content: '\00BB'; 
+    transform: rotate(90deg); /* Flips the double arrow down */
+}
+
+details form p {
+    margin-bottom: 15px;
+    color: #333; 
+}
+
+/* Labels */
+details form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #005a9c;
+    font-size: 1em;
+}
+
+/* Text and Input fields */
+details form input[type="text"],
+details form input[type="tel"],
+details form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+details form input:focus {
+    border-color: #ff9900; 
+    outline: none; 
+}
+
+details form button {
+    background-color: #005a9c 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+details form button:hover {
+    background-color: #ff9900
+}
