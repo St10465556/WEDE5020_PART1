@@ -3,8 +3,8 @@
 There are 5 webpages(Home page, About us, Our services, Geographical area and Privacy policy commitment)
 Background images are present. 
 Collapsable form is present.
-# Part2
+# Part2 Submission
 Background image is present only on Geographical are page
 More content is added on About us page
 Collapsable form is modified 
-
+Clear and attractive webpages are present
